@@ -1,0 +1,16 @@
+package name;
+import java.util.scanner;
+public class name {
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter Employee Name : ");
+String name=sc.next();
+System.out.print("Enter Age : ");
+int age=sc.nextInt();
+System.out.print("Enter Employee Salary : ");
+int salary=sc.nextInt();
+System.out.println("Employee name :"+name );
+System.out.println("Employee age :"+age);
+System.out.println("Employee salary :"+salary);
+}
+}
